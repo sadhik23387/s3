@@ -22,7 +22,7 @@ df -h
 
 echo ""
 echo "Top 5 CPU Processes:"
-ps aux --sort=-%cpu | head -6
+ps aux --sort=-%cpu | head -5
 
 echo ""
 echo "Top 5 Memory Processes:"
